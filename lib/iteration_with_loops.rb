@@ -9,12 +9,10 @@ def find_even_values(src)
     inner_element = 0
     while inner_element < src[src_index].length do
       if src[src_index][inner_element].even
-        result_array << src[src_index][inner_element]
+        p src[src_index][inner_element]
       end
       inner_element += 1
     end
     src_index += 1
   end
-  result_array
-
 end
