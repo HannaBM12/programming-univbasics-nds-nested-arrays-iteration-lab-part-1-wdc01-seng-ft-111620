@@ -7,7 +7,7 @@ def find_even_values(src)
 
   while src_index < src.length do
     inner_element = 0
-    while inner_element < src[src_index] do
+    while inner_element < src[src_index].length do
       if src[src_index][inner_element] % 2 == 0
         result_array << src[src_index][inner_element]
       end
