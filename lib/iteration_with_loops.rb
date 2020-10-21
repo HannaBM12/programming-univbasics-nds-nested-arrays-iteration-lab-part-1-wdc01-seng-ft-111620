@@ -15,5 +15,5 @@ def find_even_values(src)
     end
     src_index += 1
   end
-  p result_array
+  result_array
 end
